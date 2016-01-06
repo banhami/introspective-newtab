@@ -1,0 +1,24 @@
+body {
+	background-color: #D1D0CE;
+	font-size: 12px;
+}
+
+#quote {
+  text-align: center;
+  font-family: Helvetica Neue;
+  color: #666666;
+  font-size: 2em;
+  padding-top: 10em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#source {
+  text-align: center;
+  font-family: Helvetica Neue;
+  color: #666666;
+  font-size: 1em;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}

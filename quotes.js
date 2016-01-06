@@ -1,0 +1,42 @@
+var quotes = ["DON'T procrastinate. If you postpone the things that you should be doing on early 20's to late 30's then you can't possibly bring back the wasted time. Do the right things at the right time, and the situation will rightly favour you.",
+              "If you have to force it then maybe you need to let it go. Relationship, friendship and love. Never chase after love, affection or attention. If its meant to happen, then it will come across your path.",
+              "Learn to groom yourself and dress up well. Once you hit your 30's and 40's your entire outlook will vary greatly. Knowing how to handle ageing is a great plus point.",
+              "Don't waste your time. On social networks, clicking selfies and uploading it on Instagram, or downloading cute cat videos. Just don't waste your precious time by doing something so petty and useless.",
+              "Chase your dreams and ambitions. Whatever that might be, achieve before them you hit the threshold and give up for nothing. Chase it on your 20's if possible. At that age, your willpower, mental capacity, drive to succeed will be strong.",
+              "Never gossip or badmouth anyone. Again, another way to invest time into nothingness. What will you gain by bringing down someone's image? Learn not to degrade anyone even if you are at the receiving end of it.",
+              "Explore opportunities. Grab the untaken chances. Be a risk taker. You might not know what life throws us at unexpected moment. Why not make full use of it?",
+              "Realize that money is not everything. Set the mentality first. Stop chasing after money and start chasing behind success instead. The rest will follow suit. Money is important but your self worth is more important than that.",
+              "Discover your identity. Who are you? What do you want to do in your life for the next 50 years? What's the purpose of your existence? Answer all these questions and follow the path it leads you to.",
+              "Never take up any career choice to satisfy your parents or by following your peers. Trust me, that's the worst kind of screw up that you could do in your life. Take up the course because you have an interest in it. Period.",
+              "It is not possible to rewind back time and undo your mistakes. Learn from the mistakes of others, for you cannot afford to make them all on your own in a single life time.",
+              "Learn to be outgoing, fun and positive minded. Meet people outside your social comfort zone and listen to them. Put yourself out there and have as many experience as possible. That's how you learn the world and develop better social skills.",
+              "Don't do late night partying and excessive visiting to the clubs/pubs. Once in a while is fine. But if you do it nearly daily, then you heading towards the wrong path. You might end up being broke by 30. Just saying.",
+              "Spend some quality time with your family and friends. Especially your parents. Reason being, one day you might look up from your phone and realize that they are no more with you. No point regretting then.",
+              "If he/she is an asshole then break up with them. End the relationship instead of prolonging it further. Don't be a stupid, honestly speaking. Wake up now instead of twenty years later with a more fucked up life.",
+              "Take up a hobby that syncs up with your passion. My engineer buddy took up photography and six months later he resigned his steady job to become a full time wildlife photographer. He had no regrets so far. So, diversify your options.",
+              "Work on your communicating and interpersonal skills. Skills that you can't learn from books alone. Interact with your neighbours and join a support group to meet new people. Expand your social circle from time to time.",
+              "Avoid junk food, smoking, alcohol and drugs. This takes up a great toll upon your health when your age catches up. At least, limit the intake if its impossible for you to live without all these.",
+              "Travel as much as you can. Get a passport, and plan for a budget trip along with your friends. Visit new places and experience variety of culture. This broadens up your view about life.",
+              "Fall in love. Fall out of love. Experience both worlds. You'll understand what love is. Heartbreak matures you, and love brings out the best in you.",
+              "Don't get piled up in student debt. If possible, that is. Once you start earning, most of your income goes in to pay off your debt and you will be left with zero or little savings. Don't be a penniless graduate.",
+              "Remember birthdays and anniversaries. Surprise someone! Even if you are not the type which gets extravaganza about celebrations, try to make someone happy during their special day.",
+              "Focus on your career and studies. This should be one of the top priorities in your life.",
+              "Don't hurt anyone with your words or actions. Try to be kind and think before you speak. Hurtful words could never be taken back.",
+              "Go on a date. Blind date, double date, friendly date. Anything. Meet up with your crush, invite the person you like for a cup of coffee. That's how you learn about the opposite gender.",
+              "Start investing on your finance and savings. You could invest your time in a new startup or find a decent-paying part-time job while studying.",
+              "Get adequate rest and plenty of sleep. Your brain ages proportionally with your age. Take good care of your mental health even from a young age.",
+              "Take friendships seriously. Be a good friend for someone. Make sacrifices; help them out when they are in need. Trust them and be with them during their bad phases. Build a strong base of friendship at this age.",
+              "Don't spend too much time clinging onto your phone. This does not only harm your mental health in the long run, but also progressively makes you lose count of time.",
+              "Take it easy. Humans are not programmed to avoid making errors. It is okay to mess up once a while, but don't be too harsh on yourself. Okay?",
+              "Learn from past mistakes. There is no harm in screwing up once a while but try to learn from it. A man who forgets his past are condemned to repeat it. ~George Santayana",
+              "Watch your weight and keep it on track. Develop a healthy lifestyle from an early age so that your body doesn't deteriorate before you reach your 40's. This is crucial.",
+              "Unfinished tasks are one of the biggest life baggages. Clear them up before proceeding to a new goal or target. The best that you could do is finish the unfinished.",
+              "Pay attention to your siblings. Sadly, some of us only notice them when we go through a bad phase. Talk to them, bring them out and share your feelings with them.",
+              "In the end, we regret most about the chances we didn't take, the relationship we were afraid to have and the decisions we waited too long to take. ~Lewis Carroll",
+              "Have no regrets, plis. Life is short."];
+
+function print_quote() {
+  var test = "hello";
+  var rand = quotes[Math.floor(Math.random() * quotes.length)];
+  document.write(rand);
+}
